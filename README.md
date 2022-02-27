@@ -1,16 +1,18 @@
-# flutter_api
+# Flutter-API
 
-A new Flutter project.
+Pre-Test Majoo Bootcamp Flutter
 
-## Getting Started
+## Code Flow 1
 
-This project is a starting point for a Flutter application.
+1. Membuat `Class Data` pada file `models/data.dart`, class ini sendiri berfungsi sebagai identifikasi tipe data yang akan diolah dari rest API kedalam aplikasi
+2. Membuat `Future List Data` pada file `reference/api-list.dart`, future inilah controller untuk mengambil data dari rest API
+3. Pada file `main.dart` dengan menggunakan `Future Builder` yang mana ketika tereksekusi akan melakukan proses future pengambilan data dan setelah data di dapatkan, data tersebut di tulis kedalam aplikasi menggunakan `ListView`
 
-A few resources to get you started if this is your first Flutter project:
+## Code Flow 2
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+1. Membuat `Future Search Data` dengan parameter `id` pada file `reference/api-search.dart`, future inilah controller untuk mengambil data dari rest API
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Evidence
+
+<img src="https://github.com/yamaroni/Flutter-API/blob/main/SS1.png" width="500px">
+
